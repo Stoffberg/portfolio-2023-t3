@@ -12,7 +12,7 @@ const Home: NextPage = () => {
         <meta name="description" content="Personal Portfolio Website" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="min-h-screen bg-main-dark pb-12 tracking-tight">
+      <main className="min-h-screen bg-main-dark pb-20 tracking-tight">
         <nav className="p-4">
           <div className="mx-auto flex max-w-7xl items-center justify-between gap-6">
             <h1 className="text-2xl font-bold text-white">Stoffberg.dev</h1>
@@ -22,11 +22,8 @@ const Home: NextPage = () => {
               <li>Contact</li>
             </ul>
             <div className="flex gap-6 font-medium">
-              <button className="rounded-full p-2 tracking-tight text-main-light">
-                Login
-              </button>
               <button className="rounded-full bg-accent-light py-2 px-6 tracking-tight text-white hover:bg-accent-dark">
-                Sign Up
+                Contact Me
               </button>
             </div>
           </div>
@@ -71,12 +68,8 @@ const Home: NextPage = () => {
                 y2="100"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop
-                  offset="0.0383121"
-                  stop-color="#5ABDDE"
-                  stop-opacity="0"
-                />
-                <stop offset="0.572917" stop-color="#5ABDDE" />
+                <stop offset="0.0383121" stopColor="#5ABDDE" stopOpacity="0" />
+                <stop offset="0.572917" stopColor="#5ABDDE" />
               </linearGradient>
             </defs>
           </svg>
@@ -98,8 +91,8 @@ const Home: NextPage = () => {
                 y2="102"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#C4852A" />
-                <stop offset="1" stop-color="#C4852A" stop-opacity="0" />
+                <stop stopColor="#C4852A" />
+                <stop offset="1" stopColor="#C4852A" stopOpacity="0" />
               </linearGradient>
             </defs>
           </svg>
@@ -109,7 +102,7 @@ const Home: NextPage = () => {
               Hello, I&apos;m Dirk Stoffberg
             </h3>
             <h1 className="text-5xl font-bold text-white">
-              Turn you ideas into reality.
+              Turn your ideas into reality.
             </h1>
             <p className="text-main-light">
               A central place for all my projects, ideas and thoughts. Contact
@@ -125,18 +118,27 @@ const Home: NextPage = () => {
             </div>
           </div>
           <div className="ml-auto mt-24 grid w-7/12 grid-cols-3 gap-4 pr-12">
-            <div className="flex items-center rounded-md border border-main-border bg-main-medium p-2 text-left font-medium text-white">
+            <Link
+              href="https://github.com/Stoffberg"
+              className="flex items-center rounded-md border border-main-border bg-main-medium p-2 text-left font-medium text-white"
+            >
               <GithubLogo className="my-auto mr-4 h-5 w-5" />
               <span>GitHub</span>
-            </div>
-            <div className="flex items-center rounded-md border border-main-border bg-main-medium p-2 text-left font-medium text-white">
+            </Link>
+            <Link
+              href="https://www.instagram.com/dirksbeukes"
+              className="flex items-center rounded-md border border-main-border bg-main-medium p-2 text-left font-medium text-white"
+            >
               <InstagramLogo className="my-auto mr-4 h-5 w-5" />
               <span>Instagram</span>
-            </div>
-            <div className="flex items-center rounded-md border border-main-border bg-main-medium p-2 text-left font-medium text-white">
+            </Link>
+            <Link
+              href="https://www.linkedin.com/in/dirk-beukes-445387230"
+              className="flex items-center rounded-md border border-main-border bg-main-medium p-2 text-left font-medium text-white"
+            >
               <LinkedinLogo className="my-auto mr-4 h-5 w-5" />
               <span>LinkedIn</span>
-            </div>
+            </Link>
           </div>
         </article>
         <section className="mx-auto max-w-7xl">
@@ -147,8 +149,8 @@ const Home: NextPage = () => {
             This is a small collection of randomly selected technologies
             I&apos;ve used over the years
           </p>
-          <div className="grid grid-cols-3 gap-8">
-            <div className="flex flex-col">
+          <div className="relative grid grid-cols-3 gap-8 px-4">
+            <div className="z-10 flex flex-col">
               <div className="flex items-center gap-4 rounded-t-md border border-main-border bg-main-border px-4 py-2">
                 <svg
                   viewBox="0 0 24 24"
@@ -167,29 +169,8 @@ const Home: NextPage = () => {
                 </p>
               </div>
             </div>
-            <div className="flex flex-col">
-              <div className="flex items-center gap-4 rounded-t-md border border-main-border bg-main-border px-4 py-2">
-                <svg viewBox="0 0 512 512" className="aspect-square h-10 py-1">
-                  <title>TypeScript</title>
-                  <rect width="512" height="512" rx="50" fill="#3178c6"></rect>
-                  <path
-                    d="m317 407v50c8.1 4.2 18 7.3 29 9.4s23 3.1 35 3.1c12 0 23-1.1 34-3.4 11-2.3 20-6.1 28-11 8.1-5.3 15-12 19-21s7.1-19 7.1-32c0-9.1-1.4-17-4.1-24s-6.6-13-12-18c-5.1-5.3-11-10-18-14s-15-8.2-24-12c-6.6-2.7-12-5.3-18-7.9-5.2-2.6-9.7-5.2-13-7.8-3.7-2.7-6.5-5.5-8.5-8.4-2-3-3-6.3-3-10 0-3.4 0.89-6.5 2.7-9.3s4.3-5.1 7.5-7.1c3.2-2 7.2-3.5 12-4.6 4.7-1.1 9.9-1.6 16-1.6 4.2 0 8.6 0.31 13 0.94 4.6 0.63 9.3 1.6 14 2.9 4.7 1.3 9.3 2.9 14 4.9 4.4 2 8.5 4.3 12 6.9v-47c-7.6-2.9-16-5.1-25-6.5s-19-2.1-31-2.1c-12 0-23 1.3-34 3.8s-20 6.5-28 12c-8.1 5.4-14 12-19 21-4.7 8.4-7 18-7 30 0 15 4.3 28 13 38 8.6 11 22 19 39 27 6.9 2.8 13 5.6 19 8.3s11 5.5 15 8.4c4.3 2.9 7.7 6.1 10 9.5 2.5 3.4 3.8 7.4 3.8 12 0 3.2-0.78 6.2-2.3 9s-3.9 5.2-7.1 7.2-7.1 3.6-12 4.8c-4.7 1.1-10 1.7-17 1.7-11 0-22-1.9-32-5.7-11-3.8-21-9.5-30-17zm-84-123h64v-41h-179v41h64v183h51z"
-                    clip-rule="evenodd"
-                    fill="#fff"
-                    fill-rule="evenodd"
-                  ></path>
-                </svg>
-                <p className="text-xl font-medium text-white">Typescript</p>
-              </div>
-              <div className="grow rounded-b-md border border-main-border bg-main-medium p-4">
-                <p className="text-main-light">
-                  Typescript is a superset of JavaScript that adds static typing
-                  to the language. I use it in conjunction with tRPC to build my
-                  APIs or wuth generics to build typesafe libraries.
-                </p>
-              </div>
-            </div>
-            <div className="flex flex-col">
+
+            <div className="z-10 flex flex-col">
               <div className="flex items-center gap-4 rounded-t-md border border-main-border bg-main-border px-4 py-2">
                 <svg viewBox="0 0 24 24" className="h-10 fill-white py-1">
                   <title>Prisma</title>
@@ -206,7 +187,7 @@ const Home: NextPage = () => {
                 </p>
               </div>
             </div>
-            <div className="flex flex-col">
+            <div className="z-10 flex flex-col">
               <div className="flex items-center gap-4 rounded-t-md border border-main-border bg-main-border px-4  py-2">
                 <svg
                   viewBox="0 0 24 24"
@@ -225,7 +206,7 @@ const Home: NextPage = () => {
                 </p>
               </div>
             </div>
-            <div className="flex flex-col">
+            <div className="z-10 flex flex-col">
               <div className="flex items-center gap-4 rounded-t-md border border-main-border bg-main-border px-4 py-2">
                 <Image
                   src="/nextauth.webp"
@@ -245,7 +226,30 @@ const Home: NextPage = () => {
                 </p>
               </div>
             </div>
-            <div className="flex flex-col">
+            <div className="z-10 flex flex-col">
+              <div className="flex items-center gap-4 rounded-t-md border border-main-light bg-main-border px-4 py-2">
+                <svg viewBox="0 0 512 512" className="aspect-square h-10 py-1">
+                  <title>TypeScript</title>
+                  <rect width="512" height="512" rx="50" fill="#3178c6"></rect>
+                  <path
+                    d="m317 407v50c8.1 4.2 18 7.3 29 9.4s23 3.1 35 3.1c12 0 23-1.1 34-3.4 11-2.3 20-6.1 28-11 8.1-5.3 15-12 19-21s7.1-19 7.1-32c0-9.1-1.4-17-4.1-24s-6.6-13-12-18c-5.1-5.3-11-10-18-14s-15-8.2-24-12c-6.6-2.7-12-5.3-18-7.9-5.2-2.6-9.7-5.2-13-7.8-3.7-2.7-6.5-5.5-8.5-8.4-2-3-3-6.3-3-10 0-3.4 0.89-6.5 2.7-9.3s4.3-5.1 7.5-7.1c3.2-2 7.2-3.5 12-4.6 4.7-1.1 9.9-1.6 16-1.6 4.2 0 8.6 0.31 13 0.94 4.6 0.63 9.3 1.6 14 2.9 4.7 1.3 9.3 2.9 14 4.9 4.4 2 8.5 4.3 12 6.9v-47c-7.6-2.9-16-5.1-25-6.5s-19-2.1-31-2.1c-12 0-23 1.3-34 3.8s-20 6.5-28 12c-8.1 5.4-14 12-19 21-4.7 8.4-7 18-7 30 0 15 4.3 28 13 38 8.6 11 22 19 39 27 6.9 2.8 13 5.6 19 8.3s11 5.5 15 8.4c4.3 2.9 7.7 6.1 10 9.5 2.5 3.4 3.8 7.4 3.8 12 0 3.2-0.78 6.2-2.3 9s-3.9 5.2-7.1 7.2-7.1 3.6-12 4.8c-4.7 1.1-10 1.7-17 1.7-11 0-22-1.9-32-5.7-11-3.8-21-9.5-30-17zm-84-123h64v-41h-179v41h64v183h51z"
+                    clipRule="evenodd"
+                    fill="#fff"
+                    fillRule="evenodd"
+                  ></path>
+                </svg>
+                <p className="text-xl font-medium text-white">Typescript</p>
+              </div>
+              <div className="grow rounded-b-md border-x border-b border-main-light bg-main-medium p-4">
+                <p className="text-main-light">
+                  Typescript is a superset of JavaScript that adds static typing
+                  to the language. I use it in conjunction with tRPC to build my
+                  APIs or wuth generics to build typesafe libraries.
+                </p>
+              </div>
+            </div>
+
+            <div className="z-10 flex flex-col">
               <div className="flex items-center gap-4 rounded-t-md border border-main-border bg-main-border px-4 py-2">
                 <svg
                   viewBox="0 0 512 512"
@@ -254,8 +258,8 @@ const Home: NextPage = () => {
                   <title>tRPC</title>
                   <rect width="512" height="512" rx="150" fill="#398CCB"></rect>
                   <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
+                    fillRule="evenodd"
+                    clipRule="evenodd"
                     d="M255.446 75L326.523 116.008V138.556L412.554 188.238V273.224L435.631 286.546V368.608L364.6 409.615L333.065 391.378L256.392 435.646L180.178 391.634L149.085 409.615L78.0538 368.538V286.546L100.231 273.743V188.238L184.415 139.638L184.462 139.636V116.008L255.446 75ZM326.523 159.879V198.023L255.492 239.031L184.462 198.023V160.936L184.415 160.938L118.692 198.9V263.084L149.085 245.538L220.115 286.546V368.538L198.626 380.965L256.392 414.323L314.618 380.712L293.569 368.538V286.546L364.6 245.538L394.092 262.565V198.9L326.523 159.879ZM312.031 357.969V307.915L355.369 332.931V382.985L312.031 357.969ZM417.169 307.846L373.831 332.862V382.985L417.169 357.9V307.846ZM96.5154 357.9V307.846L139.854 332.862V382.915L96.5154 357.9ZM201.654 307.846L158.315 332.862V382.915L201.654 357.9V307.846ZM321.262 291.923L364.6 266.908L407.938 291.923L364.6 316.962L321.262 291.923ZM149.085 266.838L105.746 291.923L149.085 316.892L192.423 291.923L149.085 266.838ZM202.923 187.362V137.308L246.215 162.346V212.377L202.923 187.362ZM308.015 137.308L264.723 162.346V212.354L308.015 187.362V137.308ZM212.154 121.338L255.446 96.3231L298.785 121.338L255.446 146.354L212.154 121.338Z"
                     fill="white"
                   ></path>
@@ -271,7 +275,7 @@ const Home: NextPage = () => {
                 </p>
               </div>
             </div>
-            <div className="flex flex-col">
+            <div className="z-10 flex flex-col">
               <div className="flex items-center gap-4 rounded-t-md border border-main-border bg-main-border px-4 py-2">
                 <svg
                   className="aspect-square h-10 py-1"
@@ -299,7 +303,7 @@ const Home: NextPage = () => {
                 </p>
               </div>
             </div>
-            <div className="flex flex-col">
+            <div className="z-10 flex flex-col">
               <div className="flex items-center gap-4 rounded-t-md border border-main-border bg-main-border px-4 py-2">
                 <svg
                   className="aspect-square h-10 w-8 py-1"
@@ -321,7 +325,7 @@ const Home: NextPage = () => {
                 </p>
               </div>
             </div>
-            <div className="flex flex-col">
+            <div className="z-10 flex flex-col">
               <div className="flex items-center gap-4 rounded-t-md border border-main-border bg-main-border px-4 py-2">
                 <svg
                   className="aspect-square h-10 fill-[#398CCB] py-1"
@@ -340,9 +344,9 @@ const Home: NextPage = () => {
                     x2="152"
                     y2="63.5"
                   >
-                    <stop offset=".1" stop-color="#76b3e1" />
-                    <stop offset=".3" stop-color="#dcf2fd" />
-                    <stop offset="1" stop-color="#76b3e1" />
+                    <stop offset=".1" stopColor="#76b3e1" />
+                    <stop offset=".3" stopColor="#dcf2fd" />
+                    <stop offset="1" stopColor="#76b3e1" />
                   </linearGradient>
                   <path
                     d="M163 35S110-4 69 5l-3 1c-6 2-11 5-14 9l-2 3-15 26 26 5c11 7 25 10 38 7l46 9 18-30z"
@@ -361,9 +365,9 @@ const Home: NextPage = () => {
                     x2="74"
                     y2="105.2"
                   >
-                    <stop offset="0" stop-color="#76b3e1" />
-                    <stop offset=".5" stop-color="#4377bb" />
-                    <stop offset="1" stop-color="#1f3b77" />
+                    <stop offset="0" stopColor="#76b3e1" />
+                    <stop offset=".5" stopColor="#4377bb" />
+                    <stop offset="1" stopColor="#1f3b77" />
                   </linearGradient>
                   <path
                     d="M52 35l-4 1c-17 5-22 21-13 35 10 13 31 20 48 15l62-21S92 26 52 35z"
@@ -378,9 +382,9 @@ const Home: NextPage = () => {
                     x2="144.3"
                     y2="149.8"
                   >
-                    <stop offset="0" stop-color="#315aa9" />
-                    <stop offset=".5" stop-color="#518ac8" />
-                    <stop offset="1" stop-color="#315aa9" />
+                    <stop offset="0" stopColor="#315aa9" />
+                    <stop offset=".5" stopColor="#518ac8" />
+                    <stop offset="1" stopColor="#315aa9" />
                   </linearGradient>
                   <path
                     d="M134 80a45 45 0 00-48-15L24 85 4 120l112 19 20-36c4-7 3-15-2-23z"
@@ -394,9 +398,9 @@ const Home: NextPage = () => {
                     x2="24.4"
                     y2="260.8"
                   >
-                    <stop offset="0" stop-color="#4377bb" />
-                    <stop offset=".5" stop-color="#1a336b" />
-                    <stop offset="1" stop-color="#1a336b" />
+                    <stop offset="0" stopColor="#4377bb" />
+                    <stop offset=".5" stopColor="#1a336b" />
+                    <stop offset="1" stopColor="#1a336b" />
                   </linearGradient>
                   <path
                     d="M114 115a45 45 0 00-48-15L4 120s53 40 94 30l3-1c17-5 23-21 13-34z"
@@ -413,6 +417,58 @@ const Home: NextPage = () => {
                 </p>
               </div>
             </div>
+            <svg
+              width="350"
+              height="350"
+              viewBox="0 0 100 100"
+              className="absolute -top-20 -right-16 rotate-90"
+            >
+              <path
+                fillRule="evenodd"
+                clipRule="evenodd"
+                d="M99 1H1V99H20V21V20H21H99V1ZM40 99H21V21H99V40H41H40V41V99ZM41 99H99V41H41V99ZM40 100H21H20H1H0V99V1V0H1H99H100V1V20V21V40V41V99V100H99H41H40Z"
+                fill="url(#paint0_linear_129_6)"
+              />
+              <defs>
+                <linearGradient
+                  id="paint0_linear_129_6"
+                  x1="0"
+                  y1="0"
+                  x2="100"
+                  y2="100"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stopColor="#5BBEDF" />
+                  <stop offset="0.583333" stopColor="#5BBEDF" stopOpacity="0" />
+                </linearGradient>
+              </defs>
+            </svg>
+            <svg
+              width="350"
+              height="350"
+              viewBox="0 0 100 100"
+              className="absolute -bottom-20 -left-16 -rotate-90"
+            >
+              <path
+                fillRule="evenodd"
+                clipRule="evenodd"
+                d="M99 1H1V99H20V21V20H21H99V1ZM40 99H21V21H99V40H41H40V41V99ZM41 99H99V41H41V99ZM40 100H21H20H1H0V99V1V0H1H99H100V1V20V21V40V41V99V100H99H41H40Z"
+                fill="url(#paint0_linear_129_6)"
+              />
+              <defs>
+                <linearGradient
+                  id="paint0_linear_129_6"
+                  x1="0"
+                  y1="0"
+                  x2="100"
+                  y2="100"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stopColor="#5138EE" />
+                  <stop offset="0.583333" stopColor="#5138EE" stopOpacity="0" />
+                </linearGradient>
+              </defs>
+            </svg>
           </div>
         </section>
       </main>
