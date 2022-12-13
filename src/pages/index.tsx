@@ -1,5 +1,6 @@
 import { type NextPage } from "next";
-import Head from "next/head";
+import Head from "next-head-seo";
+
 import Image from "next/image";
 import Link from "next/link";
 import { GithubLogo, InstagramLogo, LinkedinLogo } from "phosphor-react";
@@ -34,11 +35,22 @@ const Home: NextPage = () => {
 
   return (
     <>
-      <Head>
-        <title>Stoffberg.dev</title>
-        <meta name="description" content="Personal Portfolio Website" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <Head
+        title={"Stoffberg.dev"}
+        canonical={"https://stoffberg.dev"}
+        description={"Personal Portfolio Website made by Dirk Stoffberg Beukes"}
+        og={{
+          title: "Stoffberg.dev",
+          description: "Personal Portfolio Website made by Dirk Stoffberg Beukes",
+          url: "https://stoffberg.dev",
+          image: "https://stoffberg.dev/landing.png",
+          type: "profile",
+          siteName: "Stoffberg.dev",
+        }}
+        twitter={{
+          card: "summary_large_image",
+        }}
+      />
       <main className="min-h-screen bg-main-dark pb-20 tracking-tight">
         <nav className="p-4">
           <div className="mx-auto flex max-w-7xl items-center justify-between gap-6">
@@ -98,8 +110,8 @@ const Home: NextPage = () => {
           </svg>
 
           <div className="mx-auto max-w-sm space-y-6">
-            <h3 className="font-semibold uppercase text-info-light">Hello, I&apos;m Dirk Stoffberg</h3>
-            <h1 className="text-5xl font-bold text-white">Turn your ideas into reality.</h1>
+            <h1 className="font-semibold uppercase text-info-light">Hello, I&apos;m Dirk Stoffberg</h1>
+            <h2 className="text-5xl font-bold text-white">Turn your ideas into reality.</h2>
             <p className="text-main-light">A central place for all my projects, ideas and thoughts. Contact me for business inquiries.</p>
             <div className="grid grid-cols-2 gap-4 font-medium">
               <button className="rounded-full bg-accent-light py-2 px-6 tracking-tight text-white hover:bg-accent-dark">Contact Me</button>
@@ -182,7 +194,7 @@ const Home: NextPage = () => {
             </div>
             <div className="z-10 flex flex-col">
               <div className="flex items-center gap-4 rounded-t-md border border-main-border bg-main-border px-4 py-2">
-                <Image src="/nextauth.webp" width={24} height={24} className="aspect-square h-10 w-8 py-1" alt={"NextAuth"} />
+                <Image src="/nextauth.webp" width={32} height={35} alt={"NextAuth"} />
                 <p className="text-xl font-medium text-white">NextAuth</p>
               </div>
               <div className="grow rounded-b-md border border-main-border bg-main-medium p-4">

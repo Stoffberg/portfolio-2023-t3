@@ -7,7 +7,7 @@ module.exports = {
         main: {
           dark: "#0A071B",
           medium: "#141125",
-          light: "#76728F",
+          light: "#7F79A3",
           border: "#2A263F",
         },
         accent: {
