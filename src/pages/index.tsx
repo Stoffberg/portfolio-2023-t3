@@ -1,10 +1,13 @@
 import { type NextPage } from "next";
 import Head from "next-head-seo";
+import dynamic from "next/dynamic";
 
 import Image from "next/image";
 import Link from "next/link";
 import { GithubLogo, InstagramLogo, LinkedinLogo } from "phosphor-react";
 import { useEffect, useState } from "react";
+
+const Terminal = dynamic(() => import("../components/Terminal"), { ssr: false });
 
 const MAX_LINES_OF_CODE = 83135;
 const MAX_PROJECTS = 29;
@@ -349,6 +352,25 @@ const Home: NextPage = () => {
               </defs>
             </svg>
           </div>
+        </section>
+        <section className="mx-auto mt-28 grid max-w-7xl grid-cols-3 gap-8 rounded-md p-4">
+          <div>
+            <h1 className="font-semibold uppercase text-info-light">Informal Title</h1>
+            <h2 className="mb-4 text-4xl font-bold text-white">Rapid Prototyper</h2>
+            <p className="mb-4 text-main-light">
+              This is the best description I can formulate to describe myself. I specialize in creating Proof of Concept Software Solutions but small to medium
+              scale applications can be done quite easily as well. A normal project takes me about one week.
+            </p>
+            <p className="mb-4 text-main-light">
+              Starting with the design and then moving onto the implementation, the project is scaffolded with a database, authentication, a basic frontend,
+              backend and deployed to the cloud for users to start using can happen in a few hours. This is record time compared to the normal developer
+              workflow.
+            </p>
+            <p className="text-main-light">
+              At the end of the day, this is also what I find the most fun and it keeps me motivated to continue learning and improving my skills.
+            </p>
+          </div>
+          <Terminal className="col-span-2" />
         </section>
       </main>
     </>
