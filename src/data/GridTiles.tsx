@@ -56,6 +56,7 @@ const GridTiles = [
         ></path>
       </svg>
     ),
+    accent: true,
   },
   {
     title: "tRPC",

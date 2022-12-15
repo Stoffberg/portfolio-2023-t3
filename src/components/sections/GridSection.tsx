@@ -2,6 +2,7 @@ interface GridTile {
   title: string;
   image: JSX.Element;
   description: string;
+  accent?: boolean;
 }
 
 interface GridSectionProps {
@@ -20,11 +21,11 @@ const GridSection = ({ title, subtitle, gridCols, gridTiles }: GridSectionProps)
       <div className="relative grid gap-8 px-4" style={{ gridTemplateColumns: gridColsClass }}>
         {gridTiles.map((tile) => (
           <div className="z-10 flex flex-col" key={tile.title}>
-            <div className="flex items-center gap-4 rounded-t-md border border-main-border bg-main-border px-4 py-2">
+            <div className={`flex items-center gap-4 rounded-t-md border ${tile.accent ? "border-main-light" : "border-main-border"} bg-main-border px-4 py-2`}>
               {tile.image}
               <p className="text-xl font-medium text-white">{tile.title}</p>
             </div>
-            <div className="grow rounded-b-md border border-main-border bg-main-medium p-4">
+            <div className={`grow rounded-b-md border-x border-b ${tile.accent ? "border-main-light" : "border-main-border"} bg-main-medium p-4`}>
               <p className="text-main-light">{tile.description}</p>
             </div>
           </div>
