@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { type NextRouter, withRouter } from "next/router";
 
 interface NavLink {
   title: string;
@@ -16,7 +15,6 @@ interface NavbarProps {
   title?: string;
   links?: NavLink[];
   actions?: ActionLink[];
-  router: NextRouter;
 }
 
 const Navbar = ({ title, links, actions }: NavbarProps) => {
@@ -49,4 +47,4 @@ const Navbar = ({ title, links, actions }: NavbarProps) => {
   );
 };
 
-export default withRouter(Navbar);
+export default Navbar;
