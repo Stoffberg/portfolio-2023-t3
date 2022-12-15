@@ -28,7 +28,7 @@ const Navbar = ({ title, links, actions }: NavbarProps) => {
         </Link>
         <ul className="flex gap-12 font-medium text-main-light">
           {links?.map((link) => (
-            <Link href={link.href} key={link.href}>
+            <Link href={link.href} key={link.href + link.title}>
               {link.title}
             </Link>
           ))}
@@ -37,7 +37,7 @@ const Navbar = ({ title, links, actions }: NavbarProps) => {
           {actions?.map((action) => (
             <Link
               href={action.href}
-              key={action.href}
+              key={action.href + action.title}
               className={`${action.accent ? "bg-accent-light text-white hover:bg-accent-dark" : ""} rounded-full py-2 px-6 tracking-tight `}
             >
               {action.title}
