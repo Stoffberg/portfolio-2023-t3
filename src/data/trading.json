@@ -1,0 +1,1343 @@
+[
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23367.47,
+    "askPrice": 23367.92,
+    "bidQuantity": 0.00087,
+    "askQuantity": 0.03769,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:20:59.417Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23366.18,
+    "askPrice": 23366.46,
+    "bidQuantity": 0.002,
+    "askQuantity": 0.01238,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:20:47.411Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23366.52,
+    "askPrice": 23366.72,
+    "bidQuantity": 0.00066,
+    "askQuantity": 0.04,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:20:35.382Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23368.14,
+    "askPrice": 23368.4,
+    "bidQuantity": 0.04419,
+    "askQuantity": 0.00174,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:20:23.304Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23368.57,
+    "askPrice": 23369.09,
+    "bidQuantity": 0.05213,
+    "askQuantity": 0.07284,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:20:11.197Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23367.03,
+    "askPrice": 23367.39,
+    "bidQuantity": 0.00061,
+    "askQuantity": 0.01113,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:19:59.197Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23366.15,
+    "askPrice": 23366.35,
+    "bidQuantity": 0.00266,
+    "askQuantity": 0.13163,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:19:47.193Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23365.95,
+    "askPrice": 23366.22,
+    "bidQuantity": 0.06827,
+    "askQuantity": 0.00092,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:19:35.149Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23366.08,
+    "askPrice": 23366.67,
+    "bidQuantity": 0.02032,
+    "askQuantity": 0.09083,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:19:23.053Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23365.43,
+    "askPrice": 23365.99,
+    "bidQuantity": 0.00765,
+    "askQuantity": 0.1,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:19:11.053Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23366.58,
+    "askPrice": 23366.92,
+    "bidQuantity": 0.00426,
+    "askQuantity": 0.00066,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:18:59.051Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23367.17,
+    "askPrice": 23367.3,
+    "bidQuantity": 0.0021,
+    "askQuantity": 0.03484,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:18:47.041Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23366.85,
+    "askPrice": 23367,
+    "bidQuantity": 0.00237,
+    "askQuantity": 0.00089,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:18:34.867Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23366.02,
+    "askPrice": 23366.42,
+    "bidQuantity": 0.00082,
+    "askQuantity": 0.08552,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:18:22.853Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23367.56,
+    "askPrice": 23367.73,
+    "bidQuantity": 0.04,
+    "askQuantity": 0.00001,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:18:10.845Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23367.54,
+    "askPrice": 23367.86,
+    "bidQuantity": 0.00097,
+    "askQuantity": 0.00112,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:17:58.729Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23366.92,
+    "askPrice": 23367.28,
+    "bidQuantity": 0.07698,
+    "askQuantity": 0.00044,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:17:46.725Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23365.83,
+    "askPrice": 23366.04,
+    "bidQuantity": 0.00051,
+    "askQuantity": 0.00426,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:17:34.672Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23366.71,
+    "askPrice": 23366.91,
+    "bidQuantity": 0.00426,
+    "askQuantity": 0.00485,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:17:22.665Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23368.05,
+    "askPrice": 23368.45,
+    "bidQuantity": 0.0328,
+    "askQuantity": 0.01201,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:17:10.660Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23368.58,
+    "askPrice": 23368.97,
+    "bidQuantity": 0.07698,
+    "askQuantity": 0.00128,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:16:58.594Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23368.35,
+    "askPrice": 23368.78,
+    "bidQuantity": 0.001,
+    "askQuantity": 0.00767,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:16:46.526Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23369.86,
+    "askPrice": 23370.19,
+    "bidQuantity": 0.01687,
+    "askQuantity": 0.002,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:16:34.485Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23371.99,
+    "askPrice": 23372.06,
+    "bidQuantity": 0.00087,
+    "askQuantity": 0.00266,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:16:22.463Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23372.53,
+    "askPrice": 23372.74,
+    "bidQuantity": 0.02178,
+    "askQuantity": 0.00957,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:16:10.453Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23371.33,
+    "askPrice": 23371.59,
+    "bidQuantity": 0.11002,
+    "askQuantity": 0.00484,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:15:58.091Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23371.93,
+    "askPrice": 23372.14,
+    "bidQuantity": 0.0459,
+    "askQuantity": 0.04042,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:15:46.090Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23370.06,
+    "askPrice": 23370.4,
+    "bidQuantity": 0.00026,
+    "askQuantity": 0.00368,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:15:34.088Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23371.03,
+    "askPrice": 23371.25,
+    "bidQuantity": 0.08121,
+    "askQuantity": 0.00484,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:15:22.055Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23368.92,
+    "askPrice": 23369.28,
+    "bidQuantity": 0.00066,
+    "askQuantity": 0.02482,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:15:10.042Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23368.8,
+    "askPrice": 23369.1,
+    "bidQuantity": 0.00426,
+    "askQuantity": 0.04897,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:14:58.040Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23371.94,
+    "askPrice": 23372.29,
+    "bidQuantity": 0.02967,
+    "askQuantity": 0.05161,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:14:46.031Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23370.52,
+    "askPrice": 23370.55,
+    "bidQuantity": 0.05,
+    "askQuantity": 0.00068,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:14:34.027Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23369.32,
+    "askPrice": 23369.68,
+    "bidQuantity": 0.00066,
+    "askQuantity": 0.00077,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:14:22.019Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23371.47,
+    "askPrice": 23371.96,
+    "bidQuantity": 0.06102,
+    "askQuantity": 0.1408,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:14:09.812Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23368.68,
+    "askPrice": 23368.69,
+    "bidQuantity": 0.00084,
+    "askQuantity": 0.04146,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:13:57.746Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23370.29,
+    "askPrice": 23370.51,
+    "bidQuantity": 0.00077,
+    "askQuantity": 0.0073,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:13:45.712Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23369.94,
+    "askPrice": 23370.03,
+    "bidQuantity": 0.00044,
+    "askQuantity": 0.00384,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:13:33.711Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23369.33,
+    "askPrice": 23369.69,
+    "bidQuantity": 0.00077,
+    "askQuantity": 0.002,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:13:21.682Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23368.94,
+    "askPrice": 23369.19,
+    "bidQuantity": 0.00077,
+    "askQuantity": 0.01626,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:13:09.676Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23370.76,
+    "askPrice": 23371.32,
+    "bidQuantity": 0.17249,
+    "askQuantity": 0.002,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:12:57.640Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23370.99,
+    "askPrice": 23371.22,
+    "bidQuantity": 0.001,
+    "askQuantity": 0.07693,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:12:45.635Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23371.95,
+    "askPrice": 23372.3,
+    "bidQuantity": 0.00426,
+    "askQuantity": 0.01251,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:12:33.532Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23371.93,
+    "askPrice": 23372.4,
+    "bidQuantity": 0.01155,
+    "askQuantity": 0.00052,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:12:21.518Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23371.78,
+    "askPrice": 23372,
+    "bidQuantity": 0.00082,
+    "askQuantity": 0.01106,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:12:09.511Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23373.88,
+    "askPrice": 23374.38,
+    "bidQuantity": 0.00184,
+    "askQuantity": 0.00213,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:11:57.247Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23374.46,
+    "askPrice": 23374.6,
+    "bidQuantity": 0.04881,
+    "askQuantity": 0.00056,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:11:45.242Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23374.08,
+    "askPrice": 23374.48,
+    "bidQuantity": 0.10564,
+    "askQuantity": 0.0485,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:11:33.232Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23370.3,
+    "askPrice": 23370.72,
+    "bidQuantity": 0.27115,
+    "askQuantity": 0.11869,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:11:21.230Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23370.92,
+    "askPrice": 23371.13,
+    "bidQuantity": 0.00102,
+    "askQuantity": 0.00324,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:11:09.229Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23373,
+    "askPrice": 23373.32,
+    "bidQuantity": 0.0006,
+    "askQuantity": 0.00066,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:10:57.228Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23370.66,
+    "askPrice": 23371.03,
+    "bidQuantity": 0.06174,
+    "askQuantity": 0.12019,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:10:45.220Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23375.99,
+    "askPrice": 23376.49,
+    "bidQuantity": 0.00552,
+    "askQuantity": 0.00686,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:10:33.210Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23378.39,
+    "askPrice": 23378.83,
+    "bidQuantity": 0.00449,
+    "askQuantity": 0.00067,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:10:21.185Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23378.95,
+    "askPrice": 23379.37,
+    "bidQuantity": 0.00208,
+    "askQuantity": 0.05457,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:10:09.127Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23379.85,
+    "askPrice": 23380.09,
+    "bidQuantity": 0.10113,
+    "askQuantity": 0.0759,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:09:57.126Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23377.24,
+    "askPrice": 23377.25,
+    "bidQuantity": 0.05,
+    "askQuantity": 0.00209,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:09:45.106Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23374.94,
+    "askPrice": 23375.39,
+    "bidQuantity": 0.06841,
+    "askQuantity": 0.03593,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:09:33.103Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23375.61,
+    "askPrice": 23375.92,
+    "bidQuantity": 0.05,
+    "askQuantity": 0.02975,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:09:21.075Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23377.61,
+    "askPrice": 23377.78,
+    "bidQuantity": 0.00026,
+    "askQuantity": 0.22903,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:09:09.071Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23369.97,
+    "askPrice": 23370.37,
+    "bidQuantity": 0.04451,
+    "askQuantity": 0.00266,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:08:57.055Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23370.42,
+    "askPrice": 23370.79,
+    "bidQuantity": 0.1174,
+    "askQuantity": 0.00225,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:08:45.047Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23366.21,
+    "askPrice": 23366.44,
+    "bidQuantity": 0.00087,
+    "askQuantity": 0.001,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:08:33.035Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23365.33,
+    "askPrice": 23365.7,
+    "bidQuantity": 0.11645,
+    "askQuantity": 0.01241,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:08:20.955Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23364.68,
+    "askPrice": 23364.98,
+    "bidQuantity": 0.00087,
+    "askQuantity": 0.00145,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:08:08.926Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23363.31,
+    "askPrice": 23363.53,
+    "bidQuantity": 0.00375,
+    "askQuantity": 0.00344,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:07:56.924Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23361.2,
+    "askPrice": 23361.52,
+    "bidQuantity": 0.00001,
+    "askQuantity": 0.03438,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:07:44.920Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23361.12,
+    "askPrice": 23361.34,
+    "bidQuantity": 0.00087,
+    "askQuantity": 0.0779,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:07:32.914Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23360.42,
+    "askPrice": 23360.82,
+    "bidQuantity": 0.0729,
+    "askQuantity": 0.002,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:07:20.869Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23359.85,
+    "askPrice": 23360,
+    "bidQuantity": 0.00092,
+    "askQuantity": 0.16423,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:07:08.857Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23360.62,
+    "askPrice": 23361.28,
+    "bidQuantity": 0.10156,
+    "askQuantity": 0.10639,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:06:56.829Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23356.26,
+    "askPrice": 23356.54,
+    "bidQuantity": 0.00001,
+    "askQuantity": 0.0087,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:06:44.829Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23355.93,
+    "askPrice": 23356.45,
+    "bidQuantity": 0.05899,
+    "askQuantity": 0.01197,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:06:32.798Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23355.98,
+    "askPrice": 23356.37,
+    "bidQuantity": 0.09712,
+    "askQuantity": 0.09245,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:06:20.797Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23354.97,
+    "askPrice": 23355.32,
+    "bidQuantity": 0.10925,
+    "askQuantity": 0.1174,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:06:08.794Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23355.98,
+    "askPrice": 23356.43,
+    "bidQuantity": 0.00414,
+    "askQuantity": 0.002,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:05:56.791Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23355.13,
+    "askPrice": 23355.73,
+    "bidQuantity": 0.04317,
+    "askQuantity": 0.06838,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:05:44.760Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23355.72,
+    "askPrice": 23356.16,
+    "bidQuantity": 0.00066,
+    "askQuantity": 0.00713,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:05:32.758Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23355.79,
+    "askPrice": 23356.23,
+    "bidQuantity": 0.00655,
+    "askQuantity": 0.0016,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:05:20.667Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23355.96,
+    "askPrice": 23356.34,
+    "bidQuantity": 0.02646,
+    "askQuantity": 0.05749,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:05:08.656Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23356.41,
+    "askPrice": 23356.8,
+    "bidQuantity": 0.11315,
+    "askQuantity": 0.01177,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:04:56.650Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23356.23,
+    "askPrice": 23356.67,
+    "bidQuantity": 0.00644,
+    "askQuantity": 0.00216,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:04:44.637Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23356.9,
+    "askPrice": 23357.1,
+    "bidQuantity": 0.00171,
+    "askQuantity": 0.00428,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:04:32.616Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23356.19,
+    "askPrice": 23356.63,
+    "bidQuantity": 0.00398,
+    "askQuantity": 0.00428,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:04:20.607Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23355.03,
+    "askPrice": 23355.4,
+    "bidQuantity": 0.00056,
+    "askQuantity": 0.11318,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:04:08.600Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23354.39,
+    "askPrice": 23354.67,
+    "bidQuantity": 0.03526,
+    "askQuantity": 0.00092,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:03:56.541Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23354.67,
+    "askPrice": 23354.75,
+    "bidQuantity": 0.63401,
+    "askQuantity": 0.00097,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:03:44.279Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23354.58,
+    "askPrice": 23354.69,
+    "bidQuantity": 0.00071,
+    "askQuantity": 0.04467,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:03:32.243Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23356.01,
+    "askPrice": 23356.52,
+    "bidQuantity": 0.00389,
+    "askQuantity": 0.00066,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:03:20.196Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23355.75,
+    "askPrice": 23356.32,
+    "bidQuantity": 0.01638,
+    "askQuantity": 0.10001,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:03:08.184Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23355.37,
+    "askPrice": 23355.7,
+    "bidQuantity": 0.00428,
+    "askQuantity": 0.00367,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:02:56.070Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23354.44,
+    "askPrice": 23354.72,
+    "bidQuantity": 0.08085,
+    "askQuantity": 0.00082,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:02:44.066Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23356.3,
+    "askPrice": 23356.87,
+    "bidQuantity": 0.00064,
+    "askQuantity": 0.09577,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:02:32.026Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23356.9,
+    "askPrice": 23357.24,
+    "bidQuantity": 0.001,
+    "askQuantity": 0.09648,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:02:20.017Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23356.38,
+    "askPrice": 23356.72,
+    "bidQuantity": 0.012,
+    "askQuantity": 0.07908,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:02:07.985Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23356.99,
+    "askPrice": 23357.34,
+    "bidQuantity": 0.00019,
+    "askQuantity": 0.15282,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:01:55.956Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23358.05,
+    "askPrice": 23358.29,
+    "bidQuantity": 0.00327,
+    "askQuantity": 0.0065,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:01:43.952Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23356.54,
+    "askPrice": 23356.92,
+    "bidQuantity": 0.00462,
+    "askQuantity": 0.04866,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:01:31.951Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23359.01,
+    "askPrice": 23359.4,
+    "bidQuantity": 0.01781,
+    "askQuantity": 0.001,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:01:19.936Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23357.09,
+    "askPrice": 23357.57,
+    "bidQuantity": 0.6005,
+    "askQuantity": 0.01375,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:01:07.846Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23358.69,
+    "askPrice": 23358.9,
+    "bidQuantity": 0.00328,
+    "askQuantity": 0.002,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:00:55.846Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23360.31,
+    "askPrice": 23360.71,
+    "bidQuantity": 0.00158,
+    "askQuantity": 0.09169,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:00:43.816Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23358.18,
+    "askPrice": 23358.52,
+    "bidQuantity": 0.00428,
+    "askQuantity": 0.0003,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:00:31.808Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23359.79,
+    "askPrice": 23360.12,
+    "bidQuantity": 0.0907,
+    "askQuantity": 0.00001,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:00:19.799Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23362.22,
+    "askPrice": 23362.87,
+    "bidQuantity": 0.01798,
+    "askQuantity": 0.00209,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T12:00:07.797Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23362.58,
+    "askPrice": 23362.9,
+    "bidQuantity": 0.03252,
+    "askQuantity": 0.04189,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T11:59:55.771Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23362.9,
+    "askPrice": 23362.98,
+    "bidQuantity": 0.13373,
+    "askQuantity": 0.08423,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T11:59:43.666Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23359.18,
+    "askPrice": 23359.52,
+    "bidQuantity": 0.01954,
+    "askQuantity": 0.00128,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T11:59:31.661Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23359.46,
+    "askPrice": 23359.89,
+    "bidQuantity": 0.09343,
+    "askQuantity": 0.00459,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T11:59:19.374Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23361.91,
+    "askPrice": 23362.35,
+    "bidQuantity": 0.00437,
+    "askQuantity": 0.06392,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T11:59:07.366Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23361.78,
+    "askPrice": 23362.2,
+    "bidQuantity": 0.04638,
+    "askQuantity": 0.00292,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T11:58:55.363Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23361.86,
+    "askPrice": 23362.1,
+    "bidQuantity": 0.0043,
+    "askQuantity": 0.00172,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T11:58:43.361Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23361.71,
+    "askPrice": 23362.06,
+    "bidQuantity": 0.00142,
+    "askQuantity": 0.1496,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T11:58:31.359Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23363.43,
+    "askPrice": 23363.78,
+    "bidQuantity": 0.07875,
+    "askQuantity": 0.001,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T11:58:19.294Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23362.65,
+    "askPrice": 23362.88,
+    "bidQuantity": 0.02173,
+    "askQuantity": 0.01776,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T11:58:07.209Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23362.62,
+    "askPrice": 23362.86,
+    "bidQuantity": 0.00163,
+    "askQuantity": 0.34352,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T11:57:55.135Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23358.42,
+    "askPrice": 23358.77,
+    "bidQuantity": 0.00158,
+    "askQuantity": 0.05,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T11:57:43.037Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23360.23,
+    "askPrice": 23360.24,
+    "bidQuantity": 0.001,
+    "askQuantity": 0.00154,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T11:57:31.036Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23359.55,
+    "askPrice": 23360.06,
+    "bidQuantity": 0.17492,
+    "askQuantity": 0.00406,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T11:57:19.017Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23360.35,
+    "askPrice": 23360.87,
+    "bidQuantity": 0.00428,
+    "askQuantity": 0.03583,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T11:57:06.978Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23359.72,
+    "askPrice": 23359.95,
+    "bidQuantity": 0.16572,
+    "askQuantity": 0.00128,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T11:56:54.973Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23360.71,
+    "askPrice": 23361.34,
+    "bidQuantity": 0.05,
+    "askQuantity": 0.00225,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T11:56:42.767Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23360.42,
+    "askPrice": 23360.81,
+    "bidQuantity": 0.006,
+    "askQuantity": 0.09995,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T11:56:30.756Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23361.98,
+    "askPrice": 23362.19,
+    "bidQuantity": 0.01174,
+    "askQuantity": 0.00087,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T11:56:18.754Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23360.8,
+    "askPrice": 23360.98,
+    "bidQuantity": 0.00056,
+    "askQuantity": 0.02846,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T11:56:06.500Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23359.09,
+    "askPrice": 23359.24,
+    "bidQuantity": 0.0019,
+    "askQuantity": 0.00165,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T11:55:54.303Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23358.55,
+    "askPrice": 23359.09,
+    "bidQuantity": 0.0917,
+    "askQuantity": 0.02934,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T11:55:42.252Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23359.3,
+    "askPrice": 23359.32,
+    "bidQuantity": 0.00064,
+    "askQuantity": 0.00066,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T11:55:30.174Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23358.23,
+    "askPrice": 23358.84,
+    "bidQuantity": 0.0917,
+    "askQuantity": 0.00388,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T11:55:17.451Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23359.06,
+    "askPrice": 23359.41,
+    "bidQuantity": 0.01092,
+    "askQuantity": 0.00136,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T11:55:05.449Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23358.02,
+    "askPrice": 23358.52,
+    "bidQuantity": 0.0917,
+    "askQuantity": 0.04701,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T11:54:53.353Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23358.57,
+    "askPrice": 23358.88,
+    "bidQuantity": 0.11871,
+    "askQuantity": 0.0002,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T11:54:41.335Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23360.02,
+    "askPrice": 23360.15,
+    "bidQuantity": 0.00092,
+    "askQuantity": 0.00064,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T11:54:29.171Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23362.56,
+    "askPrice": 23363.05,
+    "bidQuantity": 0.00176,
+    "askQuantity": 0.03574,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T11:54:16.821Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23360.82,
+    "askPrice": 23361.2,
+    "bidQuantity": 0.03043,
+    "askQuantity": 0.02555,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T11:54:04.819Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23358.29,
+    "askPrice": 23358.59,
+    "bidQuantity": 0.0067,
+    "askQuantity": 0.00017,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T11:53:52.817Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23358.2,
+    "askPrice": 23358.51,
+    "bidQuantity": 0.0019,
+    "askQuantity": 0.10259,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T11:53:40.755Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23358.4,
+    "askPrice": 23358.55,
+    "bidQuantity": 0.00012,
+    "askQuantity": 0.00328,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T11:53:28.745Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23353.7,
+    "askPrice": 23354,
+    "bidQuantity": 0.012,
+    "askQuantity": 0.06954,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T11:53:16.691Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23354.18,
+    "askPrice": 23354.64,
+    "bidQuantity": 0.10134,
+    "askQuantity": 0.0015,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T11:53:04.684Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23354.58,
+    "askPrice": 23355.02,
+    "bidQuantity": 0.02,
+    "askQuantity": 0.06043,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T11:52:52.676Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23355.53,
+    "askPrice": 23355.88,
+    "bidQuantity": 0.00183,
+    "askQuantity": 0.002,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T11:52:40.610Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23356.79,
+    "askPrice": 23357.04,
+    "bidQuantity": 0.03169,
+    "askQuantity": 0.00333,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T11:52:28.576Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23357.73,
+    "askPrice": 23358.08,
+    "bidQuantity": 0.00073,
+    "askQuantity": 0.001,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T11:52:16.574Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23355.32,
+    "askPrice": 23355.45,
+    "bidQuantity": 0.00018,
+    "askQuantity": 0.00128,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T11:52:04.499Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23356.15,
+    "askPrice": 23356.44,
+    "bidQuantity": 0.03206,
+    "askQuantity": 0.00034,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T11:51:52.479Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23356.69,
+    "askPrice": 23357.08,
+    "bidQuantity": 0.10358,
+    "askQuantity": 0.03583,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T11:51:40.436Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23355.4,
+    "askPrice": 23355.69,
+    "bidQuantity": 0.0027,
+    "askQuantity": 0.00044,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T11:51:28.395Z"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "bidPrice": 23356.77,
+    "askPrice": 23357.32,
+    "bidQuantity": 0.00457,
+    "askQuantity": 0.00066,
+    "timeframe": 12000,
+    "createdAt": "2023-02-04T11:51:16.389Z"
+  }
+]

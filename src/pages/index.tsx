@@ -9,8 +9,19 @@ import GridSection from "../components/sections/GridSection";
 import GridTiles from "../data/GridTiles";
 
 import AboutSection from "../components/sections/AboutSection";
+import TradingSection from "../components/sections/TradingSection";
+
+import { type MutableRefObject, useRef } from "react";
+
+const scrollToRef = (ref: MutableRefObject<HTMLElement | null>) => {
+  if (ref.current) window.scrollTo({ top: ref.current.offsetTop - 50, behavior: "smooth" });
+};
 
 const Home: NextPage = () => {
+  const LandingRef = useRef<HTMLElement | null>(null);
+  const AboutRef = useRef<HTMLElement | null>(null);
+  const ExperienceRef = useRef<HTMLElement | null>(null);
+
   return (
     <>
       <Head
@@ -34,11 +45,12 @@ const Home: NextPage = () => {
         <Navbar
           title="Stoffberg.dev"
           links={[
-            { title: "Home", href: "/" },
-            { title: "About", href: "/" },
-            { title: "Experience", href: "/" },
+            { title: "Home", func: () => scrollToRef(LandingRef) },
+            { title: "About", func: () => scrollToRef(AboutRef) },
+            { title: "Experience", func: () => scrollToRef(ExperienceRef) },
           ]}
           actions={[{ title: "Contact me", href: "/", accent: true }]}
+          ref={LandingRef}
         />
 
         <LandingSection />
@@ -57,6 +69,20 @@ const Home: NextPage = () => {
             "Starting with the design and then moving onto the implementation, the project is scaffolded with a database, authentication, a basic frontend, backend and deployed to the cloud for users to start using can happen in a few hours. This is record time compared to the normal developer workflow.",
             "At the end of the day, this is also what I find the most fun and it keeps me motivated to continue learning and improving my skills.",
           ]}
+          ref={AboutRef}
+        />
+
+        <TradingSection
+          title="General Experience"
+          subtitle="Market Value"
+          description={[
+            "My portfolio includes a diverse range of technologies, including React, Python, Rust, Vue, Svelte, .Net, Javascript, Typescript, React Native, Expo, C++, C, Java, Flutter, and Dart. This broad range of expertise allows me to provide innovative and effective solutions to meet the specific needs of my clients.",
+
+            "I have honed my skills through various projects with Zamaqo, Octoco, and freelancing, where I have gained vast experience in delivering top-notch software solutions. My goal is to always deliver high-quality results that meet and exceed client expectations.",
+
+            "Just like in the stock market, where making informed decisions leads to growth and success, I bring that same level of attention to detail and commitment to quality to my work. I strive to continuously learn and improve my skills, so I can deliver even better results with each project.",
+          ]}
+          ref={ExperienceRef}
         />
       </main>
     </>

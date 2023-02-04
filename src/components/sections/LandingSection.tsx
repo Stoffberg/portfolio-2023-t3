@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { GithubLogo, InstagramLogo, LinkedinLogo } from "phosphor-react";
-import { useEffect, useState } from "react";
+import { useEffect, useState, forwardRef } from "react";
 
 const MAX_LINES_OF_CODE = 83135;
 const MAX_PROJECTS = 29;
@@ -13,7 +13,7 @@ interface LandingSectionProps {
   maxNumProjects?: number;
 }
 
-const LandingSection = ({ maxLinesOfCode, maxNumProjects }: LandingSectionProps) => {
+const LandingSection = forwardRef<HTMLElement, LandingSectionProps>(({ maxLinesOfCode, maxNumProjects }, ref) => {
   const [stopAnimation, setStopAnimation] = useState(false);
   const [timeBetweenInterval, setTimeBetweenInterval] = useState(10);
   const [linesOfCode, setLinesOfCode] = useState(0);
@@ -38,7 +38,7 @@ const LandingSection = ({ maxLinesOfCode, maxNumProjects }: LandingSectionProps)
   }, [linesOfCode, maxLines, maxProjects, projects, stopAnimation, timeBetweenInterval]);
 
   return (
-    <article className="relative z-20 mx-auto my-28 max-w-7xl text-center">
+    <article className="relative z-20 mx-auto my-28 max-w-7xl text-center" ref={ref}>
       <div className="absolute top-32 left-8 z-10 space-y-2 rounded-md border border-main-border bg-main-medium p-8 text-left font-medium">
         <span className="uppercase text-main-light">Lines of code</span>
         <div className="flex gap-4">
@@ -115,6 +115,7 @@ const LandingSection = ({ maxLinesOfCode, maxNumProjects }: LandingSectionProps)
       </div>
     </article>
   );
-};
+});
+LandingSection.displayName = "LandingSection";
 
 export default LandingSection;

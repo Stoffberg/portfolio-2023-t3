@@ -1,8 +1,9 @@
 import Link from "next/link";
+import { forwardRef } from "react";
 
 interface NavLink {
   title: string;
-  href: string;
+  func: () => void;
 }
 
 interface ActionLink {
@@ -17,18 +18,18 @@ interface NavbarProps {
   actions?: ActionLink[];
 }
 
-const Navbar = ({ title, links, actions }: NavbarProps) => {
+const Navbar = forwardRef<HTMLElement, NavbarProps>(({ title, links, actions }, ref) => {
   return (
-    <nav className="p-4">
+    <nav className="p-4" ref={ref}>
       <div className="mx-auto flex max-w-7xl items-center justify-between gap-6">
         <Link href="/">
-          <h1 className="text-2xl font-bold text-white">{title || "Project Title"}</h1>
+          <h1 className="text-2xl font-bold text-white hover:text-white/90">{title || "Project Title"}</h1>
         </Link>
         <ul className="flex gap-12 font-medium text-main-light">
           {links?.map((link) => (
-            <Link href={link.href} key={link.href + link.title}>
+            <button key={"nav_scroll_" + link.title} onClick={link.func} className="hover:text-white/60">
               {link.title}
-            </Link>
+            </button>
           ))}
         </ul>
         <div className="flex gap-6 font-medium">
@@ -45,6 +46,7 @@ const Navbar = ({ title, links, actions }: NavbarProps) => {
       </div>
     </nav>
   );
-};
+});
+Navbar.displayName = "Navbar";
 
 export default Navbar;
