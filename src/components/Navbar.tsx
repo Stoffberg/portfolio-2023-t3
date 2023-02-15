@@ -27,9 +27,9 @@ const Navbar = forwardRef<HTMLElement, NavbarProps>(({ title, links, actions }, 
         </Link>
         <ul className="flex gap-12 font-medium text-main-light">
           {links?.map((link) => (
-            <button key={"nav_scroll_" + link.title} onClick={link.func} className="hover:text-white/60">
+            <li key={"nav_scroll_" + link.title} onClick={link.func} className="cursor-pointer hover:text-white/60">
               {link.title}
-            </button>
+            </li>
           ))}
         </ul>
         <div className="flex gap-6 font-medium">
