@@ -1,26 +1,18 @@
 import { z } from "zod";
 import { router, publicProcedure } from "../trpc";
 
-const generateUUID = () => {
-  let uuid = "";
-  const chars = "abcdef0123456789";
-  const sections = [8, 4, 4, 4, 12];
-
-  for (const section of sections) {
-    for (let i = 0; i < section; i++) {
-      uuid += chars[Math.floor(Math.random() * chars.length)];
-    }
-    if (section !== sections[sections.length - 1]) {
-      uuid += "-";
-    }
+const generateKey = (x: number) => {
+  const charset = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+  let result = "";
+  for (let i = 0; i < x; i++) {
+    result += charset.charAt(Math.floor(Math.random() * charset.length));
   }
-
-  return uuid;
+  return result;
 };
 
 export const linkRouter = router({
   set: publicProcedure.input(z.object({ url: z.string() })).mutation(async ({ input, ctx }) => {
-    const key = generateUUID();
+    const key = generateKey(8);
     await ctx.redis.set(key, input.url);
     return `https://stoffberg.dev/link/${key}`;
   }),
