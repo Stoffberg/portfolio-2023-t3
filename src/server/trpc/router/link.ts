@@ -13,8 +13,8 @@ const generateKey = (x: number) => {
 export const linkRouter = router({
   set: publicProcedure.input(z.object({ url: z.string() })).mutation(async ({ input, ctx }) => {
     const key = generateKey(8);
-    await ctx.redis.set(key, input.url);
     console.info(`set ${key} to ${input.url}`);
+    await ctx.redis.set(key, input.url);
     return `https://stoffberg.dev/link/${key}`;
   }),
   get: publicProcedure.input(z.object({ key: z.string() })).query(async ({ input, ctx }) => {
