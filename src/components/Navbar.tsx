@@ -37,7 +37,7 @@ const Navbar = forwardRef<HTMLElement, NavbarProps>(({ title, links, actions }, 
             <Link
               href={action.href}
               key={action.href + action.title}
-              className={`${action.accent ? "bg-accent-light text-white hover:bg-accent-dark" : ""} rounded-full py-2 px-6 tracking-tight `}
+              className={`${action.accent ? "bg-accent-light text-white hover:bg-accent-dark" : ""} rounded-full py-2 px-6 tracking-tight whitespace-nowrap`}
             >
               {action.title}
             </Link>
