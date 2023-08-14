@@ -16,21 +16,21 @@ const GridSection = ({ title, subtitle, gridCols, gridTiles }: GridSectionProps)
   const gridColsClass = `repeat(${gridCols}, minmax(0, 1fr))`;
   return (
     <section className="mx-auto max-w-7xl">
-      <h1 className="mt-16 mb-4 text-center text-4xl font-bold text-white">{title}</h1>
+      <h1 className="mt-16 mb-4 text-center text-3xl sm:text-4xl font-bold text-white">{title}</h1>
       <p className="mb-8 text-center text-main-light">{subtitle}</p>
-      <div className="relative grid gap-8 px-4" style={{ gridTemplateColumns: gridColsClass }}>
-        {gridTiles.map((tile) => (
-          <div className="z-10 flex flex-col" key={tile.title}>
-            <div className={`flex items-center gap-4 rounded-t-md border ${tile.accent ? "border-main-light" : "border-main-border"} bg-main-border px-4 py-2`}>
+      <div className="relative flex flex-col md:grid gap-8 px-4" style={{ gridTemplateColumns: gridColsClass }}>
+        {gridTiles.map((tile, tileIndex) => (
+          <div className={`z-10 flex-col ${(tileIndex + 1) % 2 === 0 ? "hidden md:flex" : "flex"}`} key={tile.title}>
+            <div className={`flex items-center gap-4 rounded-t-md border ${tile.accent ? "lg:border-main-light border-main-border" : "border-main-border"} bg-main-border px-4 py-2`}>
               {tile.image}
               <p className="text-xl font-medium text-white">{tile.title}</p>
             </div>
-            <div className={`grow rounded-b-md border-x border-b ${tile.accent ? "border-main-light" : "border-main-border"} bg-main-medium p-4`}>
+            <div className={`grow rounded-b-md border-x border-b ${tile.accent ? "lg:border-main-light border-main-border" : "border-main-border"} bg-main-medium p-4`}>
               <p className="text-main-light">{tile.description}</p>
             </div>
           </div>
         ))}
-        <svg width="350" height="350" viewBox="0 0 100 100" className="absolute -top-20 -right-16 rotate-90">
+        <svg width="350" height="350" viewBox="0 0 100 100" className="absolute -top-20 -right-16 rotate-90 hidden lg:block">
           <path
             fillRule="evenodd"
             clipRule="evenodd"
@@ -44,7 +44,7 @@ const GridSection = ({ title, subtitle, gridCols, gridTiles }: GridSectionProps)
             </linearGradient>
           </defs>
         </svg>
-        <svg width="350" height="350" viewBox="0 0 100 100" className="absolute -bottom-20 -left-16 -rotate-90">
+        <svg width="350" height="350" viewBox="0 0 100 100" className="absolute -bottom-20 -left-16 -rotate-90 hidden lg:block">
           <path
             fillRule="evenodd"
             clipRule="evenodd"

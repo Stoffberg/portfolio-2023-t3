@@ -38,8 +38,8 @@ const LandingSection = forwardRef<HTMLElement, LandingSectionProps>(({ maxLinesO
   }, [linesOfCode, maxLines, maxProjects, projects, stopAnimation, timeBetweenInterval]);
 
   return (
-    <article className="relative z-20 mx-auto my-28 max-w-7xl text-center" ref={ref}>
-      <div className="absolute top-32 left-8 z-10 space-y-2 rounded-md border border-main-border bg-main-medium p-8 text-left font-medium">
+    <article className="relative z-20 mx-auto my-14 lg:my-28 max-w-7xl text-center" ref={ref}>
+      <div className="absolute top-32 left-8 z-10 space-y-2 rounded-md border border-main-border bg-main-medium p-8 text-left font-medium hidden lg:block">
         <span className="uppercase text-main-light">Lines of code</span>
         <div className="flex gap-4">
           {/* format the lines of code with a seperator on the thousants */}
@@ -49,7 +49,7 @@ const LandingSection = forwardRef<HTMLElement, LandingSectionProps>(({ maxLinesO
           </div>
         </div>
       </div>
-      <div className="absolute top-8 right-12 z-10 space-y-2 rounded-md border border-main-border bg-main-medium p-8 text-left font-medium">
+      <div className="absolute top-8 right-12 z-10 space-y-2 rounded-md border border-main-border bg-main-medium p-8 text-left font-medium hidden lg:block">
         <span className="uppercase text-main-light">Projects</span>
         <div className="flex gap-4">
           <span className="text-4xl font-bold text-white">{Math.round(projects).toLocaleString()}</span>
@@ -58,7 +58,7 @@ const LandingSection = forwardRef<HTMLElement, LandingSectionProps>(({ maxLinesO
           </div>
         </div>
       </div>
-      <svg width="400" height="300" viewBox="0 0 100 100" fill="none" className="absolute top-36 left-12">
+      <svg width="400" height="300" viewBox="0 0 100 100" fill="none" className="absolute top-36 left-[4%] hidden lg:block">
         <path
           d="M0.5 0.50123C55.0557 0.769652 99.2303 44.9443 99.4988 99.5H50.4971C50.3992 91.0927 47.8315 78.7714 40.4058 68.4578C32.876 57.9999 20.3724 49.6397 0.5 49.5017V0.50123Z"
           stroke="url(#linear-gradient)"
@@ -71,7 +71,7 @@ const LandingSection = forwardRef<HTMLElement, LandingSectionProps>(({ maxLinesO
         </defs>
       </svg>
 
-      <svg width="280" height="300" viewBox="0 0 103 103" fill="none" className="absolute right-12">
+      <svg width="280" height="300" viewBox="0 0 103 103" fill="none" className="absolute right-[4%] hidden lg:block">
         <path d="M101 102L1 2V102H101Z" stroke="url(#linear-gradient-2)" />
         <defs>
           <linearGradient id="linear-gradient-2" x1="1" y1="102" x2="101" y2="102" gradientUnits="userSpaceOnUse">
@@ -81,36 +81,36 @@ const LandingSection = forwardRef<HTMLElement, LandingSectionProps>(({ maxLinesO
         </defs>
       </svg>
 
-      <div className="mx-auto max-w-sm space-y-6">
+      <div className="mx-auto max-w-md lg:max-w-sm space-y-6 px-8 lg:px-0">
         <h1 className="font-semibold uppercase text-info-light">Hello, I&apos;m Dirk Stoffberg</h1>
         <h2 className="text-5xl font-bold text-white">Turn your ideas into reality.</h2>
         <p className="text-main-light">A central place for all my projects, ideas and thoughts. Contact me for business inquiries.</p>
         <div className="grid grid-cols-2 gap-4 font-medium">
-          <button className="rounded-full bg-accent-light py-2 px-6 tracking-tight text-white hover:bg-accent-dark">Contact Me</button>
-          <button className="rounded-full bg-main-medium p-2 tracking-tight text-white hover:bg-main-border">Read Further</button>
+          <button className="rounded-full bg-accent-light py-2 px-6 tracking-tight text-white hover:bg-accent-dark z-50">Contact Me</button>
+          <button className="rounded-full bg-main-medium p-2 tracking-tight text-white hover:bg-main-border z-50">Read Further</button>
         </div>
       </div>
-      <div className="ml-auto mt-24 grid w-7/12 grid-cols-3 gap-4 pr-12">
+      <div className="mx-auto lg:ml-auto lg:mx-0 mt-8 lg:mt-24 grid w-5/12 xs:w-11/12 md:w-8/12 lg:w-7/12 grid-cols-3 gap-4 lg:pr-12 px-4">
         <Link
           href="https://github.com/Stoffberg"
-          className="flex items-center rounded-md border border-main-border bg-main-medium p-2 text-left font-medium text-white"
+          className="flex items-center rounded-md border border-main-border bg-main-medium p-2 text-left font-medium text-white w-max mx-auto xs:w-auto xs:mx-0"
         >
-          <GithubLogo className="my-auto mr-4 h-5 w-5" />
-          <span>GitHub</span>
+          <GithubLogo className="my-auto xs:mr-2 lg:mr-4 h-5 w-5" />
+          <span className="hidden xs:block">GitHub</span>
         </Link>
         <Link
           href="https://www.instagram.com/dirksbeukes"
-          className="flex items-center rounded-md border border-main-border bg-main-medium p-2 text-left font-medium text-white"
+          className="flex items-center rounded-md border border-main-border bg-main-medium p-2 text-left font-medium text-white w-max mx-auto xs:w-auto xs:mx-0"
         >
-          <InstagramLogo className="my-auto mr-4 h-5 w-5" />
-          <span>Instagram</span>
+          <InstagramLogo className="my-auto xs:mr-2 lg:mr-4 h-5 w-5" />
+          <span className="hidden xs:block">Instagram</span>
         </Link>
         <Link
           href="https://www.linkedin.com/in/dirk-beukes-445387230"
-          className="flex items-center rounded-md border border-main-border bg-main-medium p-2 text-left font-medium text-white"
+          className="flex items-center rounded-md border border-main-border bg-main-medium p-2 text-left font-medium text-white w-max mx-auto xs:w-auto xs:mx-0"
         >
-          <LinkedinLogo className="my-auto mr-4 h-5 w-5" />
-          <span>LinkedIn</span>
+          <LinkedinLogo className="my-auto xs:mr-2 lg:mr-4 h-5 w-5" />
+          <span className="hidden xs:block">LinkedIn</span>
         </Link>
       </div>
     </article>

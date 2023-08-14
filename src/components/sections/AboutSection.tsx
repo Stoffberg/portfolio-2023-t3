@@ -11,7 +11,7 @@ interface AboutSectionProps {
 
 const AboutSection = forwardRef<HTMLElement, AboutSectionProps>(({ description, title, subtitle }, ref) => {
   return (
-    <section className="mx-auto mt-36 grid max-w-7xl grid-cols-3 gap-8 rounded-md p-4" ref={ref}>
+    <section className="mx-auto mt-16 lg:mt-36 lg:grid max-w-7xl grid-cols-3 gap-8 rounded-md p-4" ref={ref}>
       <div>
         <h1 className="font-semibold uppercase text-info-light">{subtitle}</h1>
         <h2 className="mb-4 text-4xl font-bold text-white">{title}</h2>
@@ -23,7 +23,7 @@ const AboutSection = forwardRef<HTMLElement, AboutSectionProps>(({ description, 
           ))}
         </div>
       </div>
-      <Terminal className="col-span-2" />
+      <Terminal className="col-span-2 hidden xs:block mt-8 lg:mt-0" />
     </section>
   );
 });

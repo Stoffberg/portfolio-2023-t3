@@ -69,7 +69,7 @@ const Terminal = ({ code, className }: { code?: string; className?: string }) =>
   return (
     <div ref={containerRef} className={"relative z-10 overflow-hidden rounded-lg border border-main-border bg-main-medium " + className}>
       <div className="bg-main-border p-2"></div>
-      <div ref={terminalRef} className="h-[442px] bg-main-medium px-4 pb-8" />;
+      <div ref={terminalRef} className="h-[300px] lg:h-[442px] bg-main-medium px-4 pb-8" />;
     </div>
   );
 };
