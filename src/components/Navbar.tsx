@@ -25,7 +25,7 @@ const Navbar = forwardRef<HTMLElement, NavbarProps>(({ title, links, actions }, 
         <Link href="/">
           <h1 className="text-2xl font-bold text-white hover:text-white/90">{title || "Project Title"}</h1>
         </Link>
-        <ul className="flex gap-12 font-medium text-main-light">
+        <ul className="hidden sm:flex gap-12 font-medium text-main-light">
           {links?.map((link) => (
             <li key={"nav_scroll_" + link.title} onClick={link.func} className="cursor-pointer hover:text-white/60">
               {link.title}
