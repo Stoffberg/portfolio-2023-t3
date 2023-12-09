@@ -1,9 +1,8 @@
-import Link from "next/link";
 import { GithubLogo, InstagramLogo, LinkedinLogo } from "phosphor-react";
 import { useEffect, useState, forwardRef } from "react";
 
-const MAX_LINES_OF_CODE = 83135;
-const MAX_PROJECTS = 29;
+const MAX_LINES_OF_CODE = 152846;
+const MAX_PROJECTS = 32;
 
 const NXIValue = (currentValue: number, maxValue: number, iterationMax: number, divisor: number) =>
   currentValue + Math.min(iterationMax, (maxValue - currentValue) / divisor);
@@ -26,7 +25,7 @@ const LandingSection = forwardRef<HTMLElement, LandingSectionProps>(({ maxLinesO
     if (stopAnimation) return;
 
     const interval = setInterval(() => {
-      if (linesOfCode < maxLines) setLinesOfCode(NXIValue(linesOfCode, maxLines, 3689, 5));
+      if (linesOfCode < maxLines) setLinesOfCode(NXIValue(linesOfCode, maxLines, 3654, 4));
       if (projects < maxProjects) setProjects(NXIValue(projects, maxProjects, 1, 12));
 
       setTimeBetweenInterval(timeBetweenInterval + 1);
@@ -38,18 +37,17 @@ const LandingSection = forwardRef<HTMLElement, LandingSectionProps>(({ maxLinesO
   }, [linesOfCode, maxLines, maxProjects, projects, stopAnimation, timeBetweenInterval]);
 
   return (
-    <article className="relative z-20 mx-auto my-14 lg:my-28 max-w-7xl text-center" ref={ref}>
-      <div className="absolute top-32 left-8 z-10 space-y-2 rounded-md border border-main-border bg-main-medium p-8 text-left font-medium hidden lg:block">
+    <article className="relative z-20 mx-auto my-14 max-w-7xl text-center lg:my-28" ref={ref}>
+      <div className="absolute left-8 top-32 z-10 hidden space-y-2 rounded-md border border-main-border bg-main-medium p-8 text-left font-medium lg:block">
         <span className="uppercase text-main-light">Lines of code</span>
         <div className="flex gap-4">
-          {/* format the lines of code with a seperator on the thousants */}
           <span className="text-4xl font-bold text-white">{Math.round(linesOfCode).toLocaleString()}</span>
           <div className="h-max rounded-full bg-info-dark px-2">
             <span className="uppercase text-info-light">Private</span>
           </div>
         </div>
       </div>
-      <div className="absolute top-8 right-12 z-10 space-y-2 rounded-md border border-main-border bg-main-medium p-8 text-left font-medium hidden lg:block">
+      <div className="absolute right-12 top-8 z-10 hidden space-y-2 rounded-md border border-main-border bg-main-medium p-8 text-left font-medium lg:block">
         <span className="uppercase text-main-light">Projects</span>
         <div className="flex gap-4">
           <span className="text-4xl font-bold text-white">{Math.round(projects).toLocaleString()}</span>
@@ -58,7 +56,7 @@ const LandingSection = forwardRef<HTMLElement, LandingSectionProps>(({ maxLinesO
           </div>
         </div>
       </div>
-      <svg width="400" height="300" viewBox="0 0 100 100" fill="none" className="absolute top-36 left-[4%] hidden lg:block">
+      <svg width="400" height="300" viewBox="0 0 100 100" fill="none" className="absolute left-[4%] top-36 hidden lg:block">
         <path
           d="M0.5 0.50123C55.0557 0.769652 99.2303 44.9443 99.4988 99.5H50.4971C50.3992 91.0927 47.8315 78.7714 40.4058 68.4578C32.876 57.9999 20.3724 49.6397 0.5 49.5017V0.50123Z"
           stroke="url(#linear-gradient)"
@@ -81,37 +79,44 @@ const LandingSection = forwardRef<HTMLElement, LandingSectionProps>(({ maxLinesO
         </defs>
       </svg>
 
-      <div className="mx-auto max-w-md lg:max-w-sm space-y-6 px-8 lg:px-0">
+      <div className="mx-auto max-w-md space-y-6 px-8 lg:max-w-sm lg:px-0">
         <h1 className="font-semibold uppercase text-info-light">Hello, I&apos;m Dirk Stoffberg</h1>
         <h2 className="text-5xl font-bold text-white">Turn your ideas into reality.</h2>
         <p className="text-main-light">A central place for all my projects, ideas and thoughts. Contact me for business inquiries.</p>
         <div className="grid grid-cols-2 gap-4 font-medium">
-          <button className="rounded-full bg-accent-light py-2 px-6 tracking-tight text-white hover:bg-accent-dark z-50">Contact Me</button>
-          <button className="rounded-full bg-main-medium p-2 tracking-tight text-white hover:bg-main-border z-50">Read Further</button>
+          <a className="z-50 rounded-full bg-accent-light px-6 py-2 tracking-tight text-white hover:bg-accent-dark" href="mailto:dirk@stoffberg.dev">
+            Contact Me
+          </a>
+          <a
+            href="https://theorg.com/org/cloud-direct/org-chart/dirk-beukes"
+            className="z-50 rounded-full bg-main-medium p-2 tracking-tight text-white hover:bg-main-border"
+          >
+            Current Position
+          </a>
         </div>
       </div>
-      <div className="mx-auto lg:ml-auto lg:mx-0 mt-8 lg:mt-24 grid w-5/12 xs:w-11/12 md:w-8/12 lg:w-7/12 grid-cols-3 gap-4 lg:pr-12 px-4">
-        <Link
+      <div className="mx-auto mt-8 grid w-5/12 grid-cols-3 gap-4 px-4 xs:w-11/12 md:w-8/12 lg:mx-0 lg:ml-auto lg:mt-24 lg:w-7/12 lg:pr-12">
+        <a
           href="https://github.com/Stoffberg"
-          className="flex items-center rounded-md border border-main-border bg-main-medium p-2 text-left font-medium text-white w-max mx-auto xs:w-auto xs:mx-0"
+          className="mx-auto flex w-max items-center rounded-md border border-main-border bg-main-medium p-2 text-left font-medium text-white xs:mx-0 xs:w-auto"
         >
-          <GithubLogo className="my-auto xs:mr-2 lg:mr-4 h-5 w-5" />
+          <GithubLogo className="my-auto h-5 w-5 xs:mr-2 lg:mr-4" />
           <span className="hidden xs:block">GitHub</span>
-        </Link>
-        <Link
+        </a>
+        <a
           href="https://www.instagram.com/dirksbeukes"
-          className="flex items-center rounded-md border border-main-border bg-main-medium p-2 text-left font-medium text-white w-max mx-auto xs:w-auto xs:mx-0"
+          className="mx-auto flex w-max items-center rounded-md border border-main-border bg-main-medium p-2 text-left font-medium text-white xs:mx-0 xs:w-auto"
         >
-          <InstagramLogo className="my-auto xs:mr-2 lg:mr-4 h-5 w-5" />
+          <InstagramLogo className="my-auto h-5 w-5 xs:mr-2 lg:mr-4" />
           <span className="hidden xs:block">Instagram</span>
-        </Link>
-        <Link
+        </a>
+        <a
           href="https://www.linkedin.com/in/dirk-beukes-445387230"
-          className="flex items-center rounded-md border border-main-border bg-main-medium p-2 text-left font-medium text-white w-max mx-auto xs:w-auto xs:mx-0"
+          className="mx-auto flex w-max items-center rounded-md border border-main-border bg-main-medium p-2 text-left font-medium text-white xs:mx-0 xs:w-auto"
         >
-          <LinkedinLogo className="my-auto xs:mr-2 lg:mr-4 h-5 w-5" />
+          <LinkedinLogo className="my-auto h-5 w-5 xs:mr-2 lg:mr-4" />
           <span className="hidden xs:block">LinkedIn</span>
-        </Link>
+        </a>
       </div>
     </article>
   );

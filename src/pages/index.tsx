@@ -49,13 +49,12 @@ const Home: NextPage = () => {
             { title: "About", func: () => scrollToRef(AboutRef) },
             { title: "Experience", func: () => scrollToRef(ExperienceRef) },
           ]}
-          actions={[{ title: "Contact me", href: "/", accent: true }]}
           ref={LandingRef}
         />
 
         <LandingSection />
         <GridSection
-          title="Interested Technologies"
+          title="Familiar Technologies"
           subtitle="This is a small collection of randomly selected technologies I've used over the years"
           gridCols={3}
           gridTiles={GridTiles}
@@ -78,9 +77,9 @@ const Home: NextPage = () => {
           description={[
             "My portfolio includes a diverse range of technologies, including React, Python, Rust, Vue, Svelte, .Net, Javascript, Typescript, React Native, Expo, C++, C, Java, Flutter, and Dart. This broad range of expertise allows me to provide innovative and effective solutions to meet the specific needs of my clients.",
 
-            "I have honed my skills through various projects with Zamaqo, Octoco, and freelancing, where I have gained vast experience in delivering top-notch software solutions. My goal is to always deliver high-quality results that meet and exceed client expectations.",
+            "I have honed my skills through various projects with Zamaqo, Octoco, Cloud Direct and freelancing, where I have gained vast experience in delivering top-notch software solutions. My goal is to always deliver high-quality results that meet and exceed client expectations.",
 
-            "Just like in the stock market, where making informed decisions leads to growth and success, I bring that same level of attention to detail and commitment to quality to my work. I strive to continuously learn and improve my skills, so I can deliver even better results with each project.",
+            "I strive to continuously learn and improve my skills, so I can deliver even better results with each project, focusing on the speed and quality I deliver with.",
           ]}
           ref={ExperienceRef}
         />
