@@ -49,7 +49,6 @@ const LinkPage: NextPage = () => {
             { title: "About", func: () => router.push("/") },
             { title: "Experience", func: () => router.push("/") },
           ]}
-          actions={[{ title: "Contact me", href: "/", accent: true }]}
         />
         <div className="mx-auto mt-24 max-w-md space-y-6 md:mt-40">
           <h1 className="font-semibold uppercase text-info-light">Redis in middleware experiment</h1>
