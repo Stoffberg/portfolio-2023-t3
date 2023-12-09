@@ -78,7 +78,7 @@ const GridTiles = [
   {
     title: "PlanetScale",
     description:
-      "PlanetScale is a MySQL compatable, database-as-a-service that makes it easy to host a website with a database that scales with your traffic. It&apos;s serverless and has an extremely generous free tier.",
+      "PlanetScale is a MySQL compatable, database-as-a-service that makes it easy to host a website with a database that scales with your traffic. It's serverless and has an extremely generous free tier.",
     image: (
       <svg className="aspect-square h-10 py-1" viewBox="0 0 40 40" fill="none">
         <title>PlanetScale</title>
@@ -103,7 +103,7 @@ const GridTiles = [
   {
     title: "Solid.js",
     description:
-      "Solid.js is a fontend framework with APIs similar to React.js but with major speed and quality of life improvements. I generally prefer using Solid if I&apos;m not using Next.js.",
+      "Solid.js is a fontend framework with APIs similar to React.js but with major speed and quality of life improvements. I generally prefer using Solid if I'm not using Next.js.",
     image: (
       <svg className="aspect-square h-10 fill-[#398CCB] py-1" viewBox="0 0 166 155.3">
         <title>Solid.js</title>
